@@ -5,5 +5,21 @@
 }
 
 body {
+  background: #000 url("../Media/img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
   font-family: "Open sans", Arial, Helvetica, sans-serif;
+  color: #fff;
 }
+
+/*Estilos HEADER*/
+.logo {
+  width: 40px;
+}
+/*Fin estilos HEADER*/
+
+/*Estilos MAIN*/
+.thumb1 {
+  width: 100%;
+}
+/*Fin estilos MAIN*/
