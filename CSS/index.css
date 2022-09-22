@@ -20,6 +20,10 @@ body {
   max-width: 1000px;
 }
 
+.bodyContainer {
+  display: flex;
+}
+
 /*Fin estilos CONTAINER*/
 
 /*Estilos HEADER*/
@@ -27,6 +31,7 @@ header {
   align-items: center;
   padding: 50px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   width: 100%;
 }
@@ -62,7 +67,37 @@ h1 {
 /*Fin estilos HEADER*/
 
 /*Estilos MAIN*/
+main {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 80%;
+}
+
+main .bodyMain {
+  padding: 20px;
+}
+
 .thumb1 {
   width: 100%;
 }
 /*Fin estilos MAIN*/
+
+/*Estilos ASIDE*/
+
+aside {
+  width: 20%;
+}
+
+aside .ad {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(155, 155, 155, 0.2);
+  min-height: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+/*Fin estilos ASIDE*/
