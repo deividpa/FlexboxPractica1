@@ -12,7 +12,50 @@ body {
   color: #fff;
 }
 
+/*Estilos CONTAINER*/
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1000px;
+}
+
+/*Fin estilos CONTAINER*/
+
 /*Estilos HEADER*/
+header {
+  align-items: center;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+header .secLogo {
+  display: flex;
+  align-items: center;
+}
+
+header .menu a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+header .menu a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 10px;
+}
+
 .logo {
   width: 40px;
 }
